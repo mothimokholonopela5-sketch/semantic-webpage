@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student website about learning, creativity and technology.">
+
+    <title>My Digital Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="index.html" class="logo">My<span>Space.</span></a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY WORLD</p>
+
+                <h1>Ideas grow when
+                    <span>curiosity leads.</span>
+                </h1>
+
+                <p class="intro">
+                    A little space for sharing ideas, learning new things
+                    and exploring the world of technology and creativity.
+                </p>
+
+                <a href="#discover" class="hero-button">
+                    Explore the page →
+                </a>
+            </div>
+
+            <figure class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
+                    alt="A computer workspace with a laptop and desk accessories">
+                <figcaption>Creating something new, one idea at a time.</figcaption>
+            </figure>
+        </section>
+
+        <section class="about section-space" id="about">
+            <header class="section-heading">
+                <p class="eyebrow">A LITTLE INTRODUCTION</p>
+                <h2>More than just a webpage</h2>
+            </header>
+
+            <article class="about-content">
+                <p>
+                    The internet gives us the chance to learn, create
+                    and connect with people from different places.
+                    This website is a simple example of how information
+                    can be organised into a useful and attractive space.
+                </p>
+
+                <p>
+                    From web design to everyday discoveries, there is
+                    always something new to explore. The goal is to
+                    keep learning, try different ideas and improve
+                    with every project.
+                </p>
+            </article>
+        </section>
+
+        <section class="discover section-space" id="discover">
+            <header class="section-heading">
+                <p class="eyebrow">WHAT INTERESTS ME</p>
+                <h2>Things worth exploring</h2>
+                <p>Three areas that make learning exciting.</p>
+            </header>
+
+            <div class="card-container">
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">01</div>
+                    <h3>Web Design</h3>
+                    <p>
+                        Building attractive websites with HTML,
+                        CSS and creative layouts.
+                    </p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">02</div>
+                    <h3>Technology</h3>
+                    <p>
+                        Discovering digital tools that make
+                        everyday tasks easier.
+                    </p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon" aria-hidden="true">03</div>
+                    <h3>Creativity</h3>
+                    <p>
+                        Turning ordinary thoughts into fresh
+                        ideas and interesting projects.
+                    </p>
+                    <a href="#contact">Learn more ↗</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contact section-space" id="contact">
+            <header class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have something to share?</h2>
+                <p>Send a message using the form below.</p>
+            </header>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Write something..." required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 MySpace. Made with curiosity and creativity.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
